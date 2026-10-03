@@ -1,2 +1,17 @@
-# Print_It-
-shows you background process when you print anything in cpp
+# Print-It
+
+A C++ terminal application that simulates and visualizes the low-level execution lifecycle of a binary.
+
+## Core Concept
+
+The project illustrates the step-by-step internal process of running C++ code:
+- Preprocessing, AST compilation, and ELF binary linking with dynamic libraries.
+- Kernel process loading via `sys_execve`, PCB assignment, and VMA memory mapping.
+- C runtime environment initialization (`_start` and `__libc_start_main`).
+- Execution of `main()`, I/O buffer flushing, and kernel process cleanup (`sys_exit`).
+
+## Execution
+
+```bash
+g++ -std=c++11 main.cpp -o print_it && ./print_it
+```
