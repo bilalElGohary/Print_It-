@@ -13,5 +13,7 @@ The project illustrates the step-by-step internal process of running C++ code:
 ## Execution
 
 ```bash
+git clone https://github.com/bilalElGohary/Print_It-.git
+cd ~/Print_It-/src
 g++ -std=c++11 main.cpp -o print_it && ./print_it
 ```
