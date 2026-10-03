@@ -15,5 +15,10 @@ The project illustrates the step-by-step internal process of running C++ code:
 ```bash
 git clone https://github.com/bilalElGohary/Print_It-.git
 cd ~/Print_It-/src
+```
+```bash
 g++ -std=c++11 main.cpp -o print_it && ./print_it
 ```
+
+## License
+This project is licensed under the **[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)**
