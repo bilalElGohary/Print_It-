@@ -1,6 +1,5 @@
-# github : https://github.com/bilalElGohary
-
-# Copyright (C) 2026 BilalElgohary <https://github.com/bilalElGohary>
+// github : https://github.com/bilalElGohary
+// Copyright (C) 2026 BilalElgohary <https://github.com/bilalElGohary>
 
 #include <iostream>
 #include <cstdlib>
